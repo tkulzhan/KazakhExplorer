@@ -1,0 +1,176 @@
+.navbar-nav li{
+	padding-right: 40px;
+}
+
+.nav-link{font-size: 1.1em !important}
+
+#slide {
+	width: 900px;
+	height: 612px;
+	border: 3px solid #c0c0c0;
+	margin: 0 auto;
+	position: relative;
+	font-family: sans-serif;
+}
+
+.slide-single{
+	width: 900px;
+	height: 612px;
+	position: absolute;
+	transition: all ease 1s;
+	left: 0;
+	top: 0;
+}
+
+.containerr {
+	margin-top: 0;
+    align-content: center;
+	position: relative;
+	left: 30px;
+	padding: 50px;
+}
+.slider{
+	width: 1440px;
+	height: 700px;
+	border-radius: 40px;
+	overflow: hidden;
+}
+.slides{
+	width: 500%;
+	height: 500px;
+	display: flex;
+}
+
+.slides input{
+	display: none;
+	
+}
+
+.slide{
+	
+	width: 20%;
+	transition: 2s;
+}
+.slide img {
+	width: 1440px;
+	height: 700px;
+}
+
+.navigation-manual{
+	position: absolute;
+	width: 1500px;
+	margin-top: 120px;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.manual-btn{
+	border: 2px solid #40D3DC;
+	padding: 5px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+	margin-right: 40px;
+}
+
+.manual-btn:hover{
+background: #40D3DC;
+}
+
+#radio1:checked ~ .first{
+	margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+	margin-left: -20%;
+}
+
+#radio3:checked ~ .first{
+	margin-left: -40%;
+}
+
+#radio4:checked ~ .first{
+	margin-left: -60$;
+}
+
+
+.inner{
+	overflow: hidden;
+}
+.inner img{
+	transition: all 1.5s ease;
+}
+.inner:hover img{
+	transform: scale(1.5)
+}
+
+.social a{
+    font-size: 4em;
+    padding: 20px;
+}
+body {
+	font-family: Arial;
+	padding: 0;
+	background-color: #f5f5f5;
+	color: #808080;
+	text-align: center;
+}
+.col-fourth {
+	width: 23.5%;
+}
+.col-fourth {
+	position: relative;
+	display: inline-block;
+	float: right;
+	margin-right: 0%;
+	margin-bottom: 20px;
+}
+.end{
+	margin-right: 0 !important;
+}
+.wrapper{
+	width: 980px;
+	margin: 30px auto;
+	position: relative;
+	margin-bottom: 200px;
+	
+}
+.conter{
+	background: #fff;
+	padding: 20px 0;
+	border-radius: 5px;
+}
+.count-text{
+	font-size: 14px;
+	font-weight: normal;
+	margin-top: 10px;
+	margin-bottom: 0;
+	text-align: center;
+}
+.fa-2x{
+	margin: 0 auto;
+	float: none;
+	display: table;
+	color: #4adle5;
+}
+
+.fa-facebook{color: #3b5998}
+.fa-instagram{color: #517fa4}
+.fa-twitter{color: #00aced}
+.fa-youtube{color: #bb0000}
+.fa-google-plus-g{color: #dd4b39}
+
+.fa-facebook:hover, .fa-instagram:hover, .fa-twitter:hover,
+.fa-youtube:hover, .fa-google-plus-g:hover{
+    color: #ccc;
+}
+.footer{
+    background-color: #3f3f3f;
+    padding-top: 50px;
+    border-top: 40px solid silver;
+    color: white;
+}

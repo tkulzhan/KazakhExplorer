@@ -1,0 +1,195 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale">
+
+	<title>Hilton</title>
+	<!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="icon" type="image/x-icon" href="kaz20trip.jpg">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="ht.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+		  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+	</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+<div class="container-fluid">
+    <a href="#" class="navbar-brand">KazTravel</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navberResponsive">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+   
+      
+    <div class="collapse navbar-collapse" id="navberResponsive">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#aboutus" class="nav-link">About us</a>
+            </li>
+            <li class="nav-item">
+                <a href="#ourContacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Services
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Restaurants</a>
+                    <a class="dropdown-item" href="#">Hotels</a>
+                    <a class="dropdown-item" href="#">Places</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="Ayim/signUpForm.html"><button class="btn btn-primary btn-lg" type="button" id="signIn">Sign in</button> </a>
+            </li>
+        </ul>
+    </div>
+</div>
+</nav>
+	<section>
+		<div class="container-xxl animate__animated animate__zoomIn">
+	  <div class="row align-items-center mb-5">
+    <div class="col-lg-9 col-sm-12">
+		  <h1>Welcome to Hilton!</h1>
+		<ph>Hilton Astana is a 4-star hotel in Astana with an indoor heated pool, indoor swimming pool and restaurant. Lovers Park and Transport Tower are located at a distance of 4.2 km and 4.2 km, respectively. The city centre is 10 km from the hotel. MEGA Silk Way is located near the hotel. Guests can relax in beautiful rooms overlooking the city, equipped with free Wi-Fi and panoramic windows. In the rooms you will find guest bathrooms.</ph>
+		  </div>
+    <div class="col-lg-3 col-sm-12 mb-sm-5 mt-sm-5 text-center">
+		<img class="w-100" src="https://www.hilton.com/im/en/TSEKAHI/5252782/img-7410ready.jpg?impolicy=crop&cw=5251&ch=2940&gravity=NorthWest&xposition=0&yposition=6&rw=768&rh=430">
+		  </div>
+  </div>
+			</div>
+	</section>
+	<div>
+		<audio id="audio">
+		<source src="audio1.mp3" type="audio/mpeg">
+		</audio>
+		
+		<button id="playPauseBTN" onclick="playPause()">Play &#9658;</button>
+		&nbsp;
+		&nbsp;
+		<button id="playPauseBT" onclick="stop()">Stop &#9611;</button>
+	</div>
+			
+	
+	<div id = "block"></div>
+	
+	<section>
+		<div class="container-xxl animate__animated animate__zoomIn">
+	 <h2>Our rooms</h2>
+			
+			<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+		 <div class="row">
+      <div class="col-lg-3 col-sm-12 mb-sm-5 mt-sm-5 text-center">
+     <div class="card" style="width: 18rem;">
+  <img src="https://www.skyway.kz/wp-content/uploads/2019/03/116909754.jpg" class="card-img-top" alt="hall">
+  <div class="card-body">
+    <h5 class="card-title">hall</h5>
+    <ph class="card-text">Place, where it all starts.</ph>
+ 
+  </div>
+</div>
+    </div>
+			     <div class="col-lg-3 col-sm-12 mb-sm-5 mt-sm-5 text-center">
+     <div class="card" style="width: 18rem;">
+  <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/214430268.jpg?k=10143be95c115e33788b89cbe628ed3b237ea0f5e9d71c14a29122edd9826578&o=&hp=1" class="card-img-top" alt="hall">
+  <div class="card-body">
+    <h5 class="card-title">living room</h5>
+    <ph class="card-text">Place, where you can sleep.</ph>
+ 
+  </div>
+</div>
+    </div>
+			 
+        <div class="col-lg-3 col-sm-12 mb-sm-5 mt-sm-5 text-center">
+     <div class="card" style="width: 18rem;">
+  <img src="https://static.angstrem-mebel.ru/upload/iblock/67b/67b635a1c5fa1ee5b317bfde46a715fa.jpg" class="card-img-top" alt="hall">
+  <div class="card-body">
+    <h5 class="card-title">kitchen</h5>
+    <ph class="card-text">Place, where you can cook.</ph>
+   
+  </div>
+</div>
+			 </div>
+    
+		
+     <div class="col-lg-3 col-sm-12 mb-sm-5 mt-sm-5 text-center">
+     <div class="card" style="width: 18rem;">
+  <img src="https://www.pogostite.ru/images/887/492/0/admin/images/6814/hilton_astana_astana_parkovka_30.jpg" class="card-img-top" alt="hall">
+  <div class="card-body">
+    <h5 class="card-title">bathroom</h5>
+    <ph class="card-text">Place, where you can wash.</ph>
+   
+  </div>
+</div>
+    </div>
+   
+</div>
+			</div>
+	</section>
+
+				<footer class="container-fluid">
+    <div class="container-fluid">
+        <div class="row-padding text-center">
+            <div class="col-12">
+                <h2 id="ourContacts">Our Contacts</h2>
+            </div>
+            <div class="col-12 social padding">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-google-plus-g"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+  </div>
+</footer>
+		
+		
+	
+	    <script src="js/anime.min.js"></script>
+		<script>
+			anime({
+  targets: '#block',
+  translateX: 1200,	
+  translateY: -50,
+  loop: true,
+  backgroundcolor: '#8f71e2',
+  borderRadius: '50%',
+				easing: 'linear',
+				duration: 4000,
+				scale: {
+					value: 2,
+					duration: 1600,
+					delay: 800,
+					easing: 'easeInOutQuart'
+				},
+				
+				
+			}); 
+		</script>
+
+	<script src="js/script.js"></script>
+<script src="https://kit.fontawesome.com/c03846cd9a.js" crossorigin="anonymous"></script>
+	
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+	
+	<!-- Latest compiled and minified JavaScript -->
+	</body>
+	</html>
+
+
+
+

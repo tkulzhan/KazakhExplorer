@@ -1,0 +1,83 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	list-style: none;
+	font-family: 'Poppins', sans-serif;
+
+}
+.navbar-nav li{
+    padding-right: 40px;
+}
+
+.nav-link{font-size: 1.1em !important}
+
+.social a{
+    font-size: 4em;
+    padding: 20px;
+}
+
+.fa-facebook{color: #3b5998}
+.fa-instagram{color: #517fa4}
+.fa-twitter{color: #00aced}
+.fa-youtube{color: #bb0000}
+.fa-google-plus-g{color: #dd4b39}
+
+.fa-facebook:hover, .fa-instagram:hover, .fa-twitter:hover,
+.fa-youtube:hover, .fa-google-plus-g:hover{
+    color: #ccc;
+}
+.text {
+	max-width: 1000px;
+	font-size: 25px;
+	line-height: 1.5;
+}
+
+.text div {
+	display: inline-block;
+}
+    
+footer{
+    background-color: #3f3f3f;
+    padding-top: 50px;
+    border-top: 0px solid white;
+    color: white;
+}
+
+#block {
+	width: 50px;
+	height: 50px;
+	background-color: #8f93e6;
+	border-radius: 20px;
+}
+
+
+body{
+	font-size: 16px;
+	background: #fff;
+	min-height: #000;
+	align-items: center;
+	justify-content: space-around;
+}
+#playPauseBTN, #playPauseBT{
+position: relative;
+	top: -29px;
+	left: 80px;
+
+	padding: 10px 25px;
+	font-size: 20px;
+	min-width: 120px;
+	cursor: pointer;
+	background-color: color: "#273c754";
+	color: dimgrey;
+	border-radius: 5px;
+	border: 0px;
+	height: 50px;
+
+}
+
+
+section {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
